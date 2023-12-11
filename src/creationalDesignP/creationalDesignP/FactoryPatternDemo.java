@@ -20,6 +20,7 @@ public class FactoryPatternDemo {
 		
 		Shape shape3 = shapeFactory.getShape("SQUARE");
 		shape3.draw();
+		
 	}
 	
 
