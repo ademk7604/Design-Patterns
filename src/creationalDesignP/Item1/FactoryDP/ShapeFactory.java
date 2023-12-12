@@ -1,4 +1,4 @@
-package creationalDesignP.creationalDesignP;
+package creationalDesignP.Item1.FactoryDP;
 
 public class ShapeFactory {
 	// hepsi Shape int ait birer objedir
@@ -14,7 +14,9 @@ public class ShapeFactory {
 			return new Square();
 		}
 		return null;
-		
 	}
+	
+	// Aslinda birden fazla interface ye ihtiyacimiz oldugunda bu DP ihtiyacimiza cevap vermiyor 
+	// bunun icin Abstract DP daha iyi.
 
 }

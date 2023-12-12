@@ -1,4 +1,4 @@
-package creationalDesignP.creationalDesignP;
+package creationalDesignP.Item1.FactoryDP;
 
 public interface Shape {
 	// hangi class uzeirnden cagrildiginda o cizildi
