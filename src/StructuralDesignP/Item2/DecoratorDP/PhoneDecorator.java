@@ -2,7 +2,7 @@ package StructuralDesignP.Item2.DecoratorDP;
 
 public class PhoneDecorator implements Phone{
 	
-	protected IPhone basicPhone;
+	protected Phone basicPhone;
 	
 	public PhoneDecorator(IPhone basicPhone) {
 		this.basicPhone=basicPhone;
